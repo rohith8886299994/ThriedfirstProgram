@@ -6,6 +6,7 @@ public class TestSleepMethod1 extends Thread
 		  for(int i=1;i<5;i++){  
 		    try{Thread.sleep(5000);}catch(InterruptedException e){System.out.println(e);}  
 		    System.out.println(i);  
+		    System.out.println("hello dasi rohith");
 		  }  
 		 }  
 		 public static void main(String args[]){  
